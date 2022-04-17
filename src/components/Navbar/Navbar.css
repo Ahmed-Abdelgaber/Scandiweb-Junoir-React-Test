@@ -1,0 +1,34 @@
+.nav {
+    display: grid;
+    grid-template-columns: auto repeat(2, 1fr) auto;
+    padding: 1rem 0.5rem;
+}
+
+/* .nav-img__container {
+    text-align: center;
+} */
+
+.nav-img {
+    height: 2.5rem;
+    padding: 1rem;
+    padding-left: 50%;
+}
+
+.nav-select {
+    text-align: end;
+}
+
+.nav-select__body,
+.nav-select__body::selection {
+    border: none;
+    background-color: inherit;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 1rem;
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}

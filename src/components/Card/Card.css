@@ -1,0 +1,72 @@
+.card {
+    transition: all 0.2s;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.card a,
+.card a:active,
+.card a:link {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+.card:hover {
+    box-shadow: 0px 0.5rem 1.8rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.card:active {
+    box-shadow: 0px 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+}
+
+.card-body {
+    position: relative;
+    padding: 3rem 1rem;
+    text-align: start;
+}
+
+.card-img img {
+    width: 100%;
+    max-height: 20rem;
+    margin-bottom: 1.2rem;
+    user-select: none;
+}
+
+.not-exist {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: red;
+    transform: rotate(-45deg);
+    border: 5px solid red;
+    padding: 0.5rem 1rem;
+    user-select: none;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.card-price {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card-attribute {
+    display: inline-block;
+    margin-right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border: 0.5px solid #777;
+    border-radius: 50%;
+}

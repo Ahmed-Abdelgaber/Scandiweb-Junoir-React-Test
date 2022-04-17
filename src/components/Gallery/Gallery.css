@@ -1,0 +1,30 @@
+.product-body__gallery {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.product-body__gallery-left {
+    display: grid;
+    height: 50%;
+}
+
+.product-body__gallery-left img {
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.product-body__gallery-left img:hover {
+    transform: scale(1.5);
+    background-color: white;
+    z-index: 2;
+    border: 4px solid #4cd137;
+    padding: 0.5rem;
+    margin: 0.4rem 0;
+}
+
+.product-body__gallery-right img {
+    width: 100%;
+    transition: all 0.2s;
+}

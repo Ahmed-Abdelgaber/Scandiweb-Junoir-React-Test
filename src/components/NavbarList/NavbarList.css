@@ -1,0 +1,26 @@
+.nav-list {
+    list-style: none;
+}
+.nav-list__body {
+    font-size: 1.4rem;
+    color: #777;
+}
+
+.nav-list__body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list__item {
+    display: inline-block;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    margin-right: 0.4rem;
+}
+
+.nav-list__item:hover,
+.nav-list__clicked li {
+    border-bottom: 1px solid #4cd137;
+    color: #4cd137;
+}

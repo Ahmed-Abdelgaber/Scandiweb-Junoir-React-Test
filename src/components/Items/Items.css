@@ -1,0 +1,16 @@
+.items {
+    padding: 10rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+}
+
+.items-header {
+    text-align: start;
+    padding-left: 8rem;
+    font-size: 6rem;
+    margin: 0;
+    letter-spacing: 0.9rem;
+    font-weight: normal;
+    font-style: oblique;
+}
